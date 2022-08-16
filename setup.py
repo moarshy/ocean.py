@@ -69,6 +69,7 @@ dev_requirements = [
     "pytest",
     "licenseheaders==0.8.8",
     "pytest-env",
+    "ghapi==1.0.0"
 ]
 
 packages = find_namespace_packages(include=["ocean_lib*"], exclude=["*test*"])
